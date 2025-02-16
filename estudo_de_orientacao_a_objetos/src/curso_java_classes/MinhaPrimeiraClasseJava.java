@@ -6,10 +6,20 @@ public class MinhaPrimeiraClasseJava {
 		
 		/*O new Aluno() Criacao de objetos (ou instanciar) */
 		/* O aluno1 é uma referencia para o objeto*/
-		Aluno aluno1 = new Aluno();//Aqui será o Renata
-		aluno1.nome = "Ronnie";
-		System.out.println("O nome do aluno é "+aluno1.nome);
+		Aluno aluno1 = new Aluno();
+		aluno1.setNome("Ronnie Willyams");
+		aluno1.setIdade(100);
+		aluno1.setDataNascimento("13/04/1984");
+		aluno1.setNumeroCpf("666.444.33.00");
+		aluno1.setNomeMae("Maria");
+		aluno1.setNomePai("Erivaldo");
+		aluno1.setDataMatricula("20/04/2024");
+		aluno1.setNomeEscola("RWS_TEC");
+		aluno1.setSerieMatriculado("10");
 		
-		Aluno aluno2 = new Aluno();//Aqui será a Mary
+		System.out.println("Data de nascimento "+aluno1.getDataNascimento());
+		
+		
+
 	}
 }
